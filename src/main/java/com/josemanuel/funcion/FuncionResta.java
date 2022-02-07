@@ -5,7 +5,8 @@ import java.util.Scanner;
 import java.util.function.Function;
 
 
-
+//Es una clase bastante sencilla con un solo metodo que realiza la resta en nuestra aplicacion
+//tampoco controla la inserccion de datos incorrectos
 public class FuncionResta implements Function<Scanner, Void>{
 
     @Override

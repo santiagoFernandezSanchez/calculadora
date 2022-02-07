@@ -4,8 +4,14 @@ import java.math.BigDecimal;
 import java.util.Scanner;
 import java.util.function.Function;
 
+
+//Esta es una clase sencilla para calcular el area de un triangulo
 public class FuncionArea implements Function<Scanner, Void>{
 
+    //solo tiene un metodo el cual te hace la cuenta y te pide los datos para calcular el area
+    //Es una funcion que solo pide un parametro de entrada que sera por teclado y que devuelve un valor vacio
+
+    //Un detalle importante es que a pesar de que controle varias cosas no controla si el usuario introduce un dato como un string y salta el error
     @Override
     public Void apply(Scanner sc) {
         

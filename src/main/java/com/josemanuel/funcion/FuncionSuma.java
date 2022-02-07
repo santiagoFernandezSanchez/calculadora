@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.util.Scanner;
 import java.util.function.Function;
 
+//Es una clase bastante sencilla con un solo metodo que realiza la suma en nuestra aplicacion
+//tampoco controla la inserccion de datos incorrectos
 public class FuncionSuma implements Function<Scanner, Void>{
 
     @Override
